@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "bpg_glaho_bold";
+  src: url("../../assets/fonts/bpg_glaho_bold.ttf");
+}
+
+.logo {
+  margin-right: 20px;
+}
+.menu-container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navMenu a {
+  color: #183650;
+  text-decoration: none;
+  font-family: "bpg_glaho_bold";
+  font-size: 1.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #000;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #ff0202;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(100px);
+  transform: translateX(60px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(190px);
+  transform: translateX(190px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
